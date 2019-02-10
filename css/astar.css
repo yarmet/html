@@ -1,0 +1,51 @@
+table {
+    margin: auto auto 20px auto;
+    border-collapse: collapse;
+    background-color: mintcream;
+}
+
+table td {
+    border: 1px solid #cbcbcb;
+    height: 12px;
+    width: 12px;
+}
+
+.panel-default {
+    margin-top: 15px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+}
+
+.panel-default > * {
+    margin-left: 4px;
+    margin-right: 4px;
+}
+
+.strongWall {
+    background: #000000;
+}
+
+.wall {
+    background: #494949;
+}
+
+.startPoint {
+    background: blue;
+}
+
+.endPoint {
+    background: #ff0012;
+}
+
+.open {
+    background: #2dff38;
+}
+
+.closed {
+    background: #a1a5a1;
+}
+
+.path {
+    background: #ffd500;
+}
