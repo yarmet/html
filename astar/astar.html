@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="cssFile.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+
+
+<div class="container">
+    <div class="row">
+        <div class="col center">
+
+            <div class="controls">
+
+                <div class="radio">
+                    <input type="radio" id="addWall" name="action" value="addWall" checked>
+                    <label for="addWall">Add wall</label><br>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="removeWall" name="action" value="removeWall">
+                    <label for="removeWall">Clear wall</label><br>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="addStart" name="action" value="addStart">
+                    <label for="addStart">Add/move start point</label><br>
+                </div>
+
+                <div class="radio">
+                    <input type="radio" id="addEnd" name="action" value="addEnd">
+                    <label for="addEnd">Add/move end point</label><br>
+                </div>
+
+                <button type="button" class="btn btn-default" id="clear">Clear</button>
+                <button type="button" class="btn btn-default" id="run">Start</button>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row">
+
+
+        <div class="col center">
+            <table id="table">
+            </table>
+        </div>
+
+
+    </div>
+
+</div>
+
+
+</body>
+
+
+<script src="initTable.js"></script>
+<script src="fillTable.js"></script>
+
+
+</html>
